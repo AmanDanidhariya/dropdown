@@ -1,0 +1,19 @@
+.animation{
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+}
+.slide{
+    animation-name: slide;
+    
+}
+@keyframes slide{
+    0%{
+        transform: translate(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+    0% {
+		transform: translateY(-20px);
+	}
+}
